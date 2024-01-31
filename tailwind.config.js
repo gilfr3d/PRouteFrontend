@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors : {
+        nartecPrimary: "#002c6c",
+        nartecSecondary: "#f26334",
+        customBlue: '#35109F',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
